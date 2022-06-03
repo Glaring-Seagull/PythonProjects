@@ -1,3 +1,4 @@
+#Simple program to showcase some error handling
 print('Integer error catching test. Non integers should throw an error prompt, valid integers will print the input')
 try:
     name = input()

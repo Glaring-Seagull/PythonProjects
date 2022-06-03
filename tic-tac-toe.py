@@ -1,6 +1,9 @@
-#Tic-Tac-Toe
+#The worst Tic-Tac-Toe program ever. Please for the love of RNG gods, dont use this for anyhting except to stare at in contempt.
 
 #Creates a dictionary to represent a board
+from re import M
+
+
 theBoard = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ', 'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ', 'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
 
 
@@ -17,7 +20,7 @@ def makeMark():
     move = input()
     if move == 1:
         move == 'low-L'
-break
+
 
 turn = 'X'
 for i in range(9):

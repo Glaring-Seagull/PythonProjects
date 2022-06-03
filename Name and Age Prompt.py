@@ -1,7 +1,7 @@
 # This program says hello and ask for a name and age, then tell you how old you will be next year.
 import time
 
-print('Hello World!')
+print('Hello!')
 print('What is your name?') # print that ask for name
 myName = input() #waits for input to assign to 'myName' value
 print('It\'s good to meet you, ' + myName) #print response with name input

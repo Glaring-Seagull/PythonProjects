@@ -1,3 +1,4 @@
+#Simple program to showcase error handling
 def div42by(divideBy):
     try:
         return 42 / divideBy

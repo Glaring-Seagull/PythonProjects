@@ -1,3 +1,4 @@
+#Simple program to showcase function creation and use, no error handling included
 import time
 def one():
    print('You\'re name, plus four, is ' + str(len(name) + 4) + ' characters long.')
@@ -31,7 +32,7 @@ print('What is your name?')
 
 name = input()
 
-print('Please type one two or three')
+print('Please type "one" "two" or "three"')
 while True:
     x = input()
     if x == 'one':
