@@ -4,5 +4,6 @@ import json
 with open('response.json', 'r') as f:
     json_object = json.loads(f.read())
 
-#This print statement is targeting the "ip_address" key nested in our first dictionary"
-print(json_object['computer_commands']['computer_command'][0]['computers']['computer']['ip_address'])
+#Instead of printing out by single item, we can use loops to target all blocks of our nested JSON
+for computer_command in json_object['computer_commands']['computer_command']:
+    print(computer_command['computers'])
